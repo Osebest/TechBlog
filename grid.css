@@ -1,0 +1,96 @@
+@media only screen and (min-width:540px){
+  .one h1{font-size: 45px;}
+  .list{grid: auto-flow min-content/ 1fr 1fr 2fr; gap: 2em;}
+  .third{grid-column: span 1;}
+  .imgH h1{
+    font-size: 29px;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 3px #000;
+  }
+  .section5{
+    grid: auto-flow min-content / 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width:768px){  
+  header{padding: 20px 30px;}
+  header .get{padding: 15px 20px;}
+  .sef{gap: 1.5em;}
+  .section7{
+    padding: 40px 60px;
+  }
+  .section3{
+    grid: auto-flow min-content / 1fr 1fr;
+  }
+  .cards{
+    flex-direction: row;
+  }
+  .section6{
+    display: grid;
+    grid-auto-flow: column;
+    grid: min-content / 2fr 1fr;
+    padding-left: 40px;
+  }
+  .section6 h2{
+    width: 60%;
+    font-size: x-large;
+  }
+  .section2, .section3, .section4, .vid, .section5{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .card button{
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width:1024px){
+  #hamburgerBtn{display: none;}
+  .wait{display: block; margin-right: 4em;font-weight: bold;font-size: large;}
+  .imgH{flex-grow: 2;justify-content: flex-start;}
+  .sef{gap: 4em;}
+  .section2{
+    grid: auto-flow min-content / repeat(4, 1fr);
+  }
+  .section3{
+    grid: auto-flow min-content / 2fr 1fr;
+  }
+  .section7{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+  }
+  .card button{
+    font-size: 16px;
+  }
+  .section5{
+    grid: auto-flow min-content / repeat(5, 1fr);
+  }
+  .card1 button{
+    font-size: 12px;
+  }
+  .section6 h2{
+    width: 50%;
+    font-size: xx-large;
+  }
+}
+@media only screen and (min-width:1280px){
+  .section7{
+    gap: 7em;
+  }
+  .card1 button{
+    font-size: 16px;
+  }
+  .section3{
+    grid: auto-flow min-content / 70% 30%;
+    align-items: center;
+  }
+  .section3 h2{
+    font-size: xx-large;
+    padding-bottom: 20px;
+  }
+  .section3 p{
+    font-size: x-large;
+    padding-bottom: 30px;
+  }
+}
