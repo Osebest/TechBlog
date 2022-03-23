@@ -22,6 +22,7 @@
 .right{
   justify-self: end;
   color: rgba(94, 152, 170, 1);
+  float: right;
 }
 .mid{
   padding-left: 30px;

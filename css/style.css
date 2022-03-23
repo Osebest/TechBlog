@@ -99,8 +99,15 @@ a{
   -webkit-transform: rotate(-45deg) translate(-6px, 6px);
   transform: rotate(-45deg) translate(-6px, 6px);
 }
+.bar2{
+  width: 25px!important;
+  background-color: #15A05D!important;
+}
 .open .bar2 {
   opacity: 0;
+}
+.bar3{
+  width: 15px!important;
 }
 .open .bar3 {
   -webkit-transform: rotate(45deg) translate(-6px, -8px);
@@ -385,7 +392,6 @@ nav .get:hover{
   padding-bottom: 10px;
 }
 .list1 .imgH2{
-  padding-bottom: 15px;
   font-size: 24px;
   font-weight: 800;
   color: transparent;

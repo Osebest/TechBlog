@@ -7,19 +7,15 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Khula:wght@800&family=Montserrat+Alternates:wght@400;600;700;800;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <link rel="stylesheet" href="grid.css" type="text/css">
-  <link rel="stylesheet" href="example.css" type="text/css">
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
   <title>Example Blog</title>
 </head>
-<style>
-</style>
 <body>
   <header>
     <div id="hamburgerBtn" onclick="openSideMenu()">
       <div class="bar1"></div>
-      <div class="bar2" style="width: 25px;background-color: #15A05D;" id="crea"></div>
-      <div class="bar3" style="width: 15px;"></div>
+      <div class="bar2" id="crea"></div>
+      <div class="bar3"></div>
     </div>
     <div class="imgH">
       <h1><a href="index.html">TECHBLOG</a></h1>
@@ -58,8 +54,10 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. A non sed nullam aliquam porttitor.  At ipsum pellentesque nunc, ut vitae maecenas tortor nunc vulputate. 
       </h1>
       <p class="josh"><small>Igbinidu Joshua. </small><small class="dot">.</small><small>March 19, 2022</small></p>
-      <img src="./images/Rectangle 7.jpg" alt="">
-      <p class="right"><em>Oseiwe Photos</em></p>
+      <figure>
+        <img src="./images/Rectangle 7.jpg" alt="">
+        <figcaption><p class="right"><em>Oseiwe Photos</em></p></figcaption>
+      </figure>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget risus arcu, lacus, nibh iaculis tellus tortor purus feugiat. Nisi leo nascetur praesent enim tempor diam in. Et diam porttitor convallis ut egestas. Mauris egestas diam dolor nibh. In mauris viverra turpis facilisi. Faucibus pellentesque proin pulvinar dolor. Lacinia sed nibh tristique tincidunt massa.
           Diam suspendisse nunc sit et, in donec. Dignissim tristique adipiscing sem auctor eget sed cras iaculis semper. Pharetra, fusce leo neque, sapien arcu, sollicitudin libero non. Pulvinar amet scelerisque lectus porttitor. Ultrices velit id eu arcu, vel. Nisl quis eget in placerat mi sed.
           Massa tincidunt turpis nam donec risus velit vulputate sit. Pharetra aliquam est sollicitudin diam. Commodo elit enim neque aliquet. Scelerisque sapien nisi a nunc et bibendum facilisis tristique placerat. Vulputate risus diam in sit massa sapien. Pellentesque nulla amet ut nunc blandit mattis quam lobortis semper. Faucibus nulla sit enim arcu tristique in in congue nunc. Tortor nibh mus sit sit. Adipiscing sed risus mauris feugiat malesuada suspendisse. Elit feugiat vitae egestas arcu at et dignissim. Integer sapien et aliquam fermentum vitae a eget consectetur.
@@ -126,10 +124,11 @@
         <div class="imgH2">
           <h1><a href="index.html">TECHBLOG</a></h1>
         </div>
-        <div>
-          <p>
+        <div class="quote">
+          <p><blockquote>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi donec 
             dictum vestibulum. Amet nulla. Amet morbi donec dictum vestibulum.
+          </blockquote>
           </p>
         </div>
       </div>
@@ -159,7 +158,7 @@
         </ul>
       </div>
     </section>
-    <section>
+    <section class="lastsection">
       <div class="section8">
         <small>© 2021 Vigho Finance</small>
         <small><span>Privacy </span><span>Terms</span></small>
@@ -167,5 +166,5 @@
     </section>
   </footer>
 </body>
-<script src="main.js"></script>
+<script src="./js/main.js"></script>
 </html>
